@@ -1,0 +1,169 @@
+body {
+    width: 90%;
+    max-width: 960px;
+    height: 580px;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(img/2214992.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: sans-serif;
+}
+
+.container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.736);
+    border-radius: 15px;
+    box-shadow: 0 3px 9px -2px  rgba(31, 113, 255, 0.736);
+    padding: 0;
+    
+}
+
+
+.main-title {
+    padding: 0;
+    margin-left:  20px; 
+    color: white;
+    font-size: 22px;
+    text-shadow: 3px 2px 3px  rgb(0, 0, 0);
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.list {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    list-style-type: none;
+
+    
+
+}
+
+.links-top {
+    text-decoration: none;
+    /* margin-top: 3px; */
+    /* margin-right: 15px; */
+    color: white;
+    font-weight: 500; 
+    padding: 5px; 
+    letter-spacing: 1px; 
+}
+
+.links-top:hover {
+    color: black;
+    background-color: #cbe300;
+    border-radius:  10px;
+    transition-duration: .3s;
+    box-shadow: 0 2px 1px .1px rgb(255, 255, 255);
+    
+}
+
+.links-top__main {
+    pointer-events: none; /* esse recurso aponta que mesmo esse elemento sendo um link não precisa disparar um eventpo mesmo que tenha um limk clicavel*/
+    cursor: not-allowed; /*serve para deixar o proibido*/
+    color: black;
+    background-color: #cbe300;
+    border-radius:  12px;
+    box-shadow: 0 2px 1px .3px rgb(255, 255, 255);
+    padding: 6px;
+    
+}
+
+h1  {
+    text-transform: uppercase;
+    width: 450px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 55px;
+    color: white;
+    box-shadow: 0 2px 1px .2px #cbe300;
+    text-shadow: 2px 4px 3px  rgb(0, 0, 0);
+    letter-spacing: 3px;
+    /* background-color: rgba(0, 0, 0, 0.736); */
+    /* border-radius: 12px; */
+
+}
+
+.container2 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+}
+.container3 {
+    color: white;
+    background-color:  rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    margin-left: 13px;
+
+}
+
+.kind{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    width: 130px;
+}
+
+.plan-name {
+    padding: 0;
+}
+
+.plan-name li {
+    font-size: 14px;
+    color: #d5cece;
+    padding: 3px;
+    margin: 0;
+    flex: 1;
+    
+}
+
+.plan-name li::marker {
+    color: #cbe300;
+}
+.cta {
+    width: 180px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    text-align: center;
+    border-radius: 10px ;
+    padding: 5px;
+    box-shadow: 0 0px 0px 1px rgb(255, 255, 255);
+    margin-top: 20px;
+    margin: auto; 
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    
+}
+
+.cta:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: transparent;
+    transition-duration: .7s;
+    box-shadow: 0 0 8px .4px rgba(232, 255, 27, 0.736);
+
+    /* se quiser usar outline não afeta o elemento porque trabalha dentro do elemento diferente da borda*/
+}
+
+.priceplan__price {
+    font-size: 30px;
+    margin-top: 0;
+}
+
